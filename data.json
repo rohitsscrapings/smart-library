@@ -1,0 +1,27 @@
+{
+    "books": [
+        {
+            "type": "PhysicalBook",
+            "id": "B1",
+            "title": "Python OOP",
+            "author": "John Smith",
+            "available_copies": 0
+        }
+    ],
+    "members": [
+        {
+            "member_id": "M1",
+            "name": "Rohit",
+            "borrowed_books": [
+                "B1"
+            ]
+        }
+    ],
+    "loans": [
+        {
+            "book_id": "B1",
+            "member_id": "M1",
+            "date_borrowed": "2025-12-30T16:14:03.098380"
+        }
+    ]
+}
